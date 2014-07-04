@@ -29,7 +29,7 @@ USE_CAMERA_STUB := true
 -include device/sony/qcom-common/BoardConfigCommon.mk
 
 #TARGET_KERNEL_CONFIG := opensemc_fuji_nozomi_defconfig
-TARGET_PREBUILT_KERNEL := device/sony/nozomi/prebuilt/boguskernel
+TARGET_PREBUILT_KERNEL := device/sony/nozomi/kernel
 
 # Sony-supplied broadcom wlan module
 BOARD_WLAN_BROADCOM := true
